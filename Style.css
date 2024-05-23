@@ -64,3 +64,34 @@ nav ul li {
 	max-width: 100%;
 	height: auto;
 }
+
+.sous {
+display: none;
+background-color: none;
+position: absolute;
+padding: 10px 2px;
+width: 20%;
+z-index: 1000;
+}
+
+nav > ul li:hover .sous{
+	display: block;
+}
+
+.sous li{
+float: right;
+width: 100% ;
+text-align: left;
+}
+
+.sous a{
+
+	padding: 5px;
+	border-bottom: none;
+}
+
+.sous a:hover{
+
+	border-bottom: none;
+	background-color: transparent;
+}
